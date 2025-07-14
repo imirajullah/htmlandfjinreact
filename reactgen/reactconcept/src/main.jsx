@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./components/basic"; // ✅ Must match actual file
+//import Navbar from "./components/basic"; // ✅ Must match actual file
 import Staticpage from "./components/Staticpage";
 function Router() {
   return (
     <div>
-        <Navbar />
-        <staticpage />
+        {/* <Navbar /> */}
+        {<staticpage />}
       <h1>Welcome to React</h1>
     </div>
   );
