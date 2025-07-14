@@ -1,14 +1,15 @@
 import React from "react";
-//import Navbar from "./components/basic"; // ✅ Must match actual file
-import Staticpage from "./components/Staticpage";
+import Staticpage from "./components/Staticpage"; // ✅ correct
+
 function Router() {
   return (
     <div>
-        {/* <Navbar /> */}
-        {<staticpage />}
-      <h1>Welcome to React</h1>
+      <Staticpage />  {/* ✅ Proper usage with capital letter */}
     </div>
   );
 }
 
 export default Router;
+
+
+

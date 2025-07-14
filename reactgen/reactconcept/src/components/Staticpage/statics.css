@@ -1,0 +1,6 @@
+#staticpage {
+    background-color: #131212;
+    border-radius: 8px;
+    text-align: center;
+    color: white; /* ✅ correct property */
+}
