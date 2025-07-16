@@ -1,14 +1,29 @@
 .profile{
-    width: 300px;
-    height: 200px;
-    padding: 0px;
-    margin: 0px;;
+    width: 332px;
+    height: 250px;
+    padding: 2px;
+    margin: 1px;
+
 }
-.contact-file{
-    width: 300px;
-    height: 200px;
-    padding: 0px;
-    margin: 0px;
-    background-color: black;
-    color:  black;
+
+/* .contact-f{    // the hole 4 come in same line
+    background-color:black;
+    color: white;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+} */
+.contact-o{
+    background-color:black;
+    color: white;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+}
+.contact-b{
+    background-color:black;
+    color: white;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
 }
