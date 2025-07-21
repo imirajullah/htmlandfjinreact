@@ -34,7 +34,7 @@ function Contact() {
         <p>03025726323</p>
         <p>mirajullah95@gmail.com</p>
       </div>
-      </div>
+      </div> 
     </div> // ✅ This was fixed
   );
 }   
