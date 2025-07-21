@@ -37,7 +37,7 @@ function Contact() {
       </div>
     </div> // ✅ This was fixed
   );
-}
+}   
 
 export default Contact;
 
