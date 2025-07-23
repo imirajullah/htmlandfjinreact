@@ -1,9 +1,11 @@
 import React from "react";
+import Home from "./component/Home/Home";
 
 function Main() {
     return(
         <div>
-            <h1>Welcome to the Meme Maker!</h1>
+            
+            <Home />
         </div>
     )
 
