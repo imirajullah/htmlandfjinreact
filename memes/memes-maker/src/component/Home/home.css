@@ -1,13 +1,50 @@
-.home{
-    display: flex;
-    align-self: center;
-    height: 90px;
-    background-color: blueviolet;
-    color: aliceblue;
+/* Top header area with image and title */
+.home {
+  display: flex;
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 30px;
 }
-.body-home{
-   text-align: center;
+
+/* Shared image styling */
+.img {
+  display: block;
+  margin: 10px auto;
+  width: 600px;
+  height: 500px;
+  
 }
-.body-home.p{
-   display: flex;
+
+/* Body with two <p> tags side-by-side */
+.body-home {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 30px;
+}
+
+/* Individual paragraph styling */
+.body-home p {
+  border: solid 0.5px;
+
+  padding: 5px 80px 5px 5px;
+  margin: 0;
+}
+
+/* Centered button outside body-home */
+button {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 140px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
 }

@@ -12,8 +12,10 @@ function Home() {
         <div className=" body-home">
             <p>shut up</p>
             <p>Take my money</p>
-            <button>generate a new meme</button>
+           
         </div>
+             <button>generate a new meme</button>
+             <img className="img" src={trollFace} alt="Troll Face" />
         </>
     );
 }
