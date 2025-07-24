@@ -6,7 +6,7 @@ import Timer from "./component/Timer/Timer";
 
 function Main() {
     return (
-        <BrowserRouter>
+        <BrowserRouter> 
             <Routes>
                 {/* <Route path="/" element={<Home />} />
                 <Route path="/memes" element={<Memes />} /> */}
