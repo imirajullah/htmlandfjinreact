@@ -12,7 +12,7 @@ function Main() {
                 <Route path="/memes" element={<Memes />} /> */}
                 <Route path="/Timer" element={<Timer/>} />
             </Routes>
-        </BrowserRouter>
+        </BrowserRouter> 
     );
 }
 
