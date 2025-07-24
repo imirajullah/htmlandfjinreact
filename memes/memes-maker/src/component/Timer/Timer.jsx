@@ -1,6 +1,7 @@
 import React from "react";
 
 function Timer() {
+  console.log("Timer component loaded");
   const now = new Date();
   const hour = now.getHours();
   const minute = now.getMinutes();
